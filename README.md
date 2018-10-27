@@ -1,2 +1,2 @@
 # CST338
-  <br> Software design with Proffesor David Wisneski
+  <br> Software design with Professor David Wisneski
