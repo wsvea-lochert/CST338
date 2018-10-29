@@ -5,7 +5,6 @@
  * Author: William Svea-Lochert
  * Date: 10/28/2018
  */
-
 package csumb.william.homework5;
 
 import java.text.DecimalFormat;
@@ -30,7 +29,7 @@ public class AccountApp {
         DecimalFormat decimalFormat = new DecimalFormat(pattern, symbols);
         decimalFormat.setGroupingSize(3);
         String number = decimalFormat.format(amount);
-        if((amount%100) == 0){
+        if((amount%1) == 0){
             number += ".00";
         }
         return number;
